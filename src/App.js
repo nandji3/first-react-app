@@ -1,8 +1,8 @@
 import './App.css';
-import ExpenseItem from './components/ExpenseItem';
-import Card from './components/Card';
+import ExpenseItem from './components/Expenses/ExpenseItem';
+import Card from './components/UI/Card';
 
-function App() {
+const App = () => {
   const expense = [
     { id: 'e1', title: 'Car Insurance ', LocationOfExpenditure: 'Bhopal', amount: 264.5, date: new Date(2023, 7, 27) },
     { id: 'e2', title: 'Food ', LocationOfExpenditure: 'Indore', amount: 950, date: new Date(2023, 2, 27) },
