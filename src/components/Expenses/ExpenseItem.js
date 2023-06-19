@@ -35,7 +35,7 @@ const ExpenseItem = (props) => {
     return (
         <Card key={props.key} className="expense-item">
             <ExpenseDate date={props.date} />
-            <ExpenseDetails title={title} LocationOfExpenditure={props.LocationOfExpenditure} amount={expense} />
+            <ExpenseDetails title={title} location={props.location} amount={expense} />
             <button onClick={changeExpense} style={{ ...style, backgroundColor: "#1793bd" }}>Change Expense</button>
             <button onClick={(e) => e.target.parentElement.remove()} style={style}>Delete</button>
             <button onClick={changeTitle} style={{ ...style, backgroundColor: "#1793bd" }}>Change Title</button>
