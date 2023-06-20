@@ -5,10 +5,10 @@ import NewExpense from './components/NewExpense/NewExpense';
 import { useState } from 'react';
 
 const DUMMY_EXPENSES = [
-  { id: 'e1', title: 'Car Insurance ', location: 'Bhopal', amount: 264.5, date: new Date(2023, 7, 27) },
-  { id: 'e2', title: 'Food ', location: 'Indore', amount: 950, date: new Date(2023, 2, 27) },
-  { id: 'e3', title: 'Travel ', location: 'Gwalior', amount: 675, date: new Date(2023, 5, 27) },
-  { id: 'e4', title: 'Fuel ', location: 'Satna', amount: 400, date: new Date(2023, 6, 15) },
+  { id: 'e1', title: 'Car Insurance ', location: 'Bhopal', amount: 264.5, date: new Date(2020, 7, 27) },
+  { id: 'e2', title: 'Food ', location: 'Indore', amount: 950, date: new Date(2020, 2, 27) },
+  { id: 'e3', title: 'Travel ', location: 'Gwalior', amount: 675, date: new Date(2019, 5, 27) },
+  { id: 'e4', title: 'Fuel ', location: 'Satna', amount: 400, date: new Date(2021, 6, 15) },
 ];
 
 const App = () => {

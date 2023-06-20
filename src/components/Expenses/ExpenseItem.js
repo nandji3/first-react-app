@@ -33,7 +33,7 @@ const ExpenseItem = (props) => {
     }
 
     return (
-        <Card key={props.key} className="expense-item">
+        <Card className="expense-item">
             <ExpenseDate date={props.date} />
             <ExpenseDetails title={title} location={props.location} amount={expense} />
             <button onClick={changeExpense} style={{ ...style, backgroundColor: "#1793bd" }}>Change Expense</button>
