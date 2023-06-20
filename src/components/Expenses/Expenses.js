@@ -20,7 +20,8 @@ const Expenses = ({ expenses }) => {
         <div>
             <Card className='expenses'>
                 <ExpenseFilter selected={filteredYear} onChangeFilter={filterChangeHandler} />
-                {filteredExpenses.map((exp, i) => {
+                {filteredExpenses.length === 0 && <h4>No Expenses Found</h4>}
+                {filteredExpenses.length > 0 && filteredExpenses.map((exp, i) => {
                     return (<ExpenseItem key={exp.id} title={exp.title} location={exp.location} amount={exp.amount} date={exp.date} />)
                 })}
             </Card >
