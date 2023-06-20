@@ -13,7 +13,8 @@
     /* font: inherit; */
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 1px solid #40005d;
+    font-weight: bold;
+    border: 1px solid #ffffff;
     background-color: #40005d;
     color: white;
     border-radius: 12px;
@@ -23,7 +24,7 @@
 .new-expense button:hover,
 .new-expense button:active {
     background-color: #510674;
-    border-color: #510674;
+    border-color: #08f59a;
 }
 
 .new-expense button.alternative {
@@ -35,4 +36,12 @@
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
     background-color: #ddb3f8;
+}
+
+.new-expense__actions {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: end; */
+    /* align-content: end; */
+    width: 100%;
 }

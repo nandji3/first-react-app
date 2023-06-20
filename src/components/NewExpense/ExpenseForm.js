@@ -46,6 +46,7 @@ const ExpenseForm = (props) => {
                     <input type="date" value={enteredDate} onChange={(e) => setEnteredDate(e.target.value)} min="2019-01-01" step="2023-06-16" placeholder="Enter Expense Date" />
                 </div>
                 <div className="new-expense__actions">
+                    <button type="button" onClick={props.onCancle}>Cancle</button>
                     <button type="submit">Add Expenses</button>
                 </div>
             </div>
